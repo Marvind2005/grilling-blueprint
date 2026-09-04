@@ -1,0 +1,19 @@
+{
+  "tenantId": "f112b58b-07ae-445f-8eba-b2554ce43428",
+  "subscriptionId": "c245e22b-2b61-4892-b4bc-f9964249aad7",
+  "resourceGroup": "AI-red-team",
+  "location": "centralus",
+  "environment": "prod",
+  "needDeployment": true,
+  "clientAppId": "8207ecb6-1e29-4c96-a2f9-565f20b4ad58",
+  "appServicePlanName": "ASP-AIredteam-a69b",
+  "webAppName": "grillingagent-webapp",
+  "agentIdentityDisplayName": "GrillingAgent Identity",
+  "agentBlueprintDisplayName": "GrillingAgent Blueprint",
+  "agentUserPrincipalName": "grillingagent@MngEnvMCAP507767.onmicrosoft.com",
+  "agentUserDisplayName": "GrillingAgent Agent User",
+  "managerEmail": "AdeleV@MngEnvMCAP507767.onmicrosoft.com",
+  "agentUserUsageLocation": "US",
+  "deploymentProjectPath": "C:\\Users\\marvindsouza\\AgentsToolkitProjects\\Grilling-agent\\Grilling-agent",
+  "agentDescription": "GrillingAgent - Agent 365 Agent"
+}

@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2026-03-29T03:57:31.845" instance="7027b9" url="/api/deployments/latest" method="GET" type="request" pid="778,1,3" Accept="*/*" Host="grillingagent-webapp.scm.azurewebsites.net" User-Agent="AZURECLI/2.73.0 (MSI)" Accept-Encoding="gzip, deflate" Authorization="Bea..." x-ms-client-request-id="572ba2d8-2b23-11f1-8199-c8348e418f65" X-ARR-LOG-ID="572ba2d8-2b23-11f1-8199-c8348e418f65" CLIENT-IP="136.37.223.204:58725" X-SITE-DEPLOYMENT-ID="grillingagent-webapp" WAS-DEFAULT-HOSTNAME="grillingagent-webapp.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest" X-Client-IP="136.37.223.204" X-Client-Port="58725" >
+  <step title="Cleanup Xml Logs" date="2026-03-29T03:57:31.856" /><!-- duration: 47ms -->
+  <step title="DeploymentService.GetResult" date="2026-03-29T03:57:31.956" >
+    <step title="DeploymentService.GetLatestDeployment" date="2026-03-29T03:57:32.003" >
+      <step title="DeploymentManager.GetResults" date="2026-03-29T03:57:32.033" /><!-- duration: 886ms -->
+    </step><!-- duration: 1033ms -->
+  </step><!-- duration: 1109ms -->
+  <step title="Outgoing response" date="2026-03-29T03:57:33.093" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 18ms -->
+</step><!-- duration: 1279ms -->

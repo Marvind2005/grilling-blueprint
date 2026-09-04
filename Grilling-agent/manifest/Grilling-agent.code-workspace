@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"debug.onTaskErrors": "abort",
+		"mcp": {
+			"servers": {
+				"my-mcp-server-17283a55": {
+					"url": "https://sentinel.microsoft.com/mcp/data-exploration",
+					"type": "http"
+				},
+				"my-mcp-server-aaa0ffb6": {
+					"url": "https://apim12345678.azure-api.net/sentinel-test/mcp",
+					"type": "http"
+				}
+			},
+			"inputs": []
+		}
+	}
+}

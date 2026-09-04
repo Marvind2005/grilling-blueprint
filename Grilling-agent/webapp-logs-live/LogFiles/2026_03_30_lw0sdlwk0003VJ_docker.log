@@ -1,0 +1,247 @@
+2026-03-30T00:43:22.3576378Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-30T00:43:25.5166935Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-30T00:43:38.0371161Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-30T00:43:38.0381766Z Container start method called.
+2026-03-30T00:43:38.0390133Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:43:38.0396330Z Establishing network.
+2026-03-30T00:43:38.0404139Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-30T00:43:38.5749853Z Image appsvc/python:3.11_20260203.2.tuxprod is pulled from registry 10.1.0.4:13209
+2026-03-30T00:43:38.5754901Z Container is starting.
+2026-03-30T00:43:38.5756497Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:43:38.5759786Z Establishing user namespace if not established already.
+2026-03-30T00:43:38.5760912Z Establishing network if not established already.
+2026-03-30T00:43:38.5766737Z Mounting volumes.
+2026-03-30T00:43:38.5772853Z Nested mountpoint 
+2026-03-30T00:43:38.6184130Z Nested mountpoint volatile/logs
+2026-03-30T00:43:38.6361515Z Nested mountpoint 
+2026-03-30T00:43:38.7360742Z Nested mountpoint 
+2026-03-30T00:43:38.7644226Z Nested mountpoint 
+2026-03-30T00:43:39.0319941Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for botfbad7a. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-30T00:43:39.0321803Z Creating container.
+2026-03-30T00:43:39.0323737Z Creating pipes for streaming container io.
+2026-03-30T00:43:39.0325489Z Creating stdout named pipe at /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stdout_099e7ac09a264d90bcec731d2795ea93.
+2026-03-30T00:43:39.0327693Z Successfully created stdout named pipe at: /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stdout_099e7ac09a264d90bcec731d2795ea93.
+2026-03-30T00:43:39.0333037Z Opening named pipe /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stdout_099e7ac09a264d90bcec731d2795ea93 for reading in non-blocking mode.
+2026-03-30T00:43:39.0334871Z Successfully opened named pipe: /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stdout_099e7ac09a264d90bcec731d2795ea93.
+2026-03-30T00:43:39.0336294Z Successfully removed non-blocking flag from /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stdout_099e7ac09a264d90bcec731d2795ea93.
+2026-03-30T00:43:39.0441435Z Creating stderr named pipe at /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stderr_80aff95e3d144ee3be61621a6ce4acba.
+2026-03-30T00:43:39.0452786Z Successfully created stderr named pipe at: /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stderr_80aff95e3d144ee3be61621a6ce4acba.
+2026-03-30T00:43:39.0622387Z Opening named pipe /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stderr_80aff95e3d144ee3be61621a6ce4acba for reading in non-blocking mode.
+2026-03-30T00:43:39.0628747Z Successfully opened named pipe: /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stderr_80aff95e3d144ee3be61621a6ce4acba.
+2026-03-30T00:43:39.0631578Z Successfully removed non-blocking flag from /podr/container/pipe/de4cb9ee2fcc_botfbad7a/stderr_80aff95e3d144ee3be61621a6ce4acba.
+2026-03-30T00:43:39.0754607Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-30T00:43:39.7715871Z Starting container: de4cb9ee2fcc_botfbad7a.
+2026-03-30T00:43:39.8672289Z Starting watchers and probes.
+2026-03-30T00:43:39.9086901Z Starting metrics collection.
+2026-03-30T00:43:39.9091484Z Container is running.
+2026-03-30T00:43:39.9166768Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:43:40.0265977Z Container start method finished after 1988 ms.
+2026-03-30T00:43:40.0279919Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:43:40.0745400Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-30T00:44:08.1794680Z Container has finished running with exit code: 1.
+2026-03-30T00:44:08.2791491Z Container is terminating. Grace period: 5 seconds.
+2026-03-30T00:44:08.3607666Z Stop and delete container. Retry count = 0
+2026-03-30T00:44:08.3872067Z Stopping container: de4cb9ee2fcc_botfbad7a.
+2026-03-30T00:44:08.5981189Z Deleting container: de4cb9ee2fcc_botfbad7a. Retry count = 0
+2026-03-30T00:44:08.9177866Z Container spec TerminationMessagePolicy  path 
+2026-03-30T00:44:08.9571930Z Container is terminated. Total time elapsed: 667 ms.
+2026-03-30T00:44:08.9591746Z Site container: botfbad7a terminated during site startup.
+2026-03-30T00:44:08.9952719Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:09.1472589Z Site startup probe failed after 28.962035 seconds.
+2026-03-30T00:44:09.5358654Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:09.6439386Z Failed to start site. Revert by stopping site.
+2026-03-30T00:44:09.6916463Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:09.7220637Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:09.7235874Z Site: botfbad7a stopped.
+2026-03-30T00:44:09.7531209Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:10.7728129Z Site container: botfbad7a_managedIdentity terminated during site startup.
+2026-03-30T00:44:10.7748883Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:10.8247728Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:44:11.2766917Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:44:11 (UTC), DetailsLevel: ERR
+2026-03-30T00:44:11.7004928Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:44:11 (UTC), DetailsLevel: ERR
+2026-03-30T00:44:38.9097388Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:44:11 (UTC), DetailsLevel: ERR
+2026-03-30T00:44:43.1007937Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:44:11 (UTC), DetailsLevel: ERR
+2026-03-30T00:45:00.5869120Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:44:11 (UTC), DetailsLevel: ERR
+2026-03-30T00:45:00.5871679Z Container start method called.
+2026-03-30T00:45:00.5872970Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:45:00.6036945Z Establishing network.
+2026-03-30T00:45:00.6042894Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-30T00:45:00.9704449Z Container is starting.
+2026-03-30T00:45:00.9705433Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Mounting volumes for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:45:00.9706732Z Establishing user namespace if not established already.
+2026-03-30T00:45:00.9707915Z Establishing network if not established already.
+2026-03-30T00:45:00.9709262Z Mounting volumes.
+2026-03-30T00:45:00.9721289Z Nested mountpoint 
+2026-03-30T00:45:01.0281528Z Nested mountpoint volatile/logs
+2026-03-30T00:45:01.0659534Z Nested mountpoint 
+2026-03-30T00:45:01.0666348Z Nested mountpoint 
+2026-03-30T00:45:01.2045630Z Nested mountpoint 
+2026-03-30T00:45:01.7303260Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for botfbad7a. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-30T00:45:01.7305359Z Creating container.
+2026-03-30T00:45:01.7314273Z Creating pipes for streaming container io.
+2026-03-30T00:45:01.7567049Z Creating stdout named pipe at /podr/container/pipe/daa1622e5362_botfbad7a/stdout_b3f4bede22a743fa88749d0bd6e8b814.
+2026-03-30T00:45:01.7579384Z Successfully created stdout named pipe at: /podr/container/pipe/daa1622e5362_botfbad7a/stdout_b3f4bede22a743fa88749d0bd6e8b814.
+2026-03-30T00:45:01.7581715Z Opening named pipe /podr/container/pipe/daa1622e5362_botfbad7a/stdout_b3f4bede22a743fa88749d0bd6e8b814 for reading in non-blocking mode.
+2026-03-30T00:45:01.7583553Z Successfully opened named pipe: /podr/container/pipe/daa1622e5362_botfbad7a/stdout_b3f4bede22a743fa88749d0bd6e8b814.
+2026-03-30T00:45:01.7584875Z Successfully removed non-blocking flag from /podr/container/pipe/daa1622e5362_botfbad7a/stdout_b3f4bede22a743fa88749d0bd6e8b814.
+2026-03-30T00:45:01.7672741Z Creating stderr named pipe at /podr/container/pipe/daa1622e5362_botfbad7a/stderr_c8b8f41f4094410e8c7c4702086f2dc9.
+2026-03-30T00:45:01.7675928Z Successfully created stderr named pipe at: /podr/container/pipe/daa1622e5362_botfbad7a/stderr_c8b8f41f4094410e8c7c4702086f2dc9.
+2026-03-30T00:45:01.7677530Z Opening named pipe /podr/container/pipe/daa1622e5362_botfbad7a/stderr_c8b8f41f4094410e8c7c4702086f2dc9 for reading in non-blocking mode.
+2026-03-30T00:45:01.7679141Z Successfully opened named pipe: /podr/container/pipe/daa1622e5362_botfbad7a/stderr_c8b8f41f4094410e8c7c4702086f2dc9.
+2026-03-30T00:45:01.7680471Z Successfully removed non-blocking flag from /podr/container/pipe/daa1622e5362_botfbad7a/stderr_c8b8f41f4094410e8c7c4702086f2dc9.
+2026-03-30T00:45:01.7687852Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-30T00:45:04.3902459Z Starting container: daa1622e5362_botfbad7a.
+2026-03-30T00:45:04.5943855Z Starting watchers and probes.
+2026-03-30T00:45:04.5960254Z Starting metrics collection.
+2026-03-30T00:45:04.6026449Z Container is running.
+2026-03-30T00:45:04.6027993Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:45:05.0530227Z Container start method finished after 4465 ms.
+2026-03-30T00:45:05.0533194Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:45:05.0533558Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-30T00:45:55.3288365Z Container has finished running with exit code: 1.
+2026-03-30T00:45:55.3299616Z Container is terminating. Grace period: 5 seconds.
+2026-03-30T00:45:55.3663991Z Stop and delete container. Retry count = 0
+2026-03-30T00:45:55.3666484Z Stopping container: daa1622e5362_botfbad7a.
+2026-03-30T00:45:55.6000566Z Deleting container: daa1622e5362_botfbad7a. Retry count = 0
+2026-03-30T00:45:56.4613023Z Container spec TerminationMessagePolicy  path 
+2026-03-30T00:45:56.4625266Z Container is terminated. Total time elapsed: 1132 ms.
+2026-03-30T00:45:56.4632284Z Site container: botfbad7a terminated during site startup.
+2026-03-30T00:45:56.4836058Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:44:09, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:56.5103640Z Site startup probe failed after 51.4450021 seconds.
+2026-03-30T00:45:56.8157902Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:56.8473672Z Failed to start site. Revert by stopping site.
+2026-03-30T00:45:56.8666726Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:56.8749445Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:56.8749708Z Site: botfbad7a stopped.
+2026-03-30T00:45:56.9367255Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:59.2364206Z Site container: botfbad7a_managedIdentity terminated during site startup.
+2026-03-30T00:45:59.2366059Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:45:59.4823756Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:46:00.4300411Z Site: botfbad7a will be blocked for 1 minutes till 03/30/2026 00:47:00
+2026-03-30T00:46:00.4317109Z State: Blocked, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site: botfbad7a will be blocked for 1 minutes till 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:00.6194304Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:46:00 (UTC), DetailsLevel: WARN
+2026-03-30T00:46:00.8957039Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site stopped at 03/30/2026 00:46:00 (UTC), DetailsLevel: WARN
+2026-03-30T00:46:02.3309356Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:02.3309955Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:07.5017765Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:07.5193930Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:12.8495940Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:12.8496269Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:18.4724802Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:18.4744859Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:23.8018275Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:23.8018599Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:29.0693396Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:29.0693715Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:34.3580421Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:34.3581195Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:36.4101964Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:36.4102852Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:39.6379702Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:39.6379978Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:44.8369033Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:44.8369338Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:50.0302693Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:50.0303008Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:46:55.3332738Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:46:55.3333205Z Start site prohibitted because the site is being blocked.
+2026-03-30T00:47:00.4397116Z Site: botfbad7a is unblocked.
+2026-03-30T00:47:00.5849363Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:47:06.7228247Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:47:26.0292137Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:47:00, DetailsLevel: WARN
+2026-03-30T00:47:26.0810517Z Container start method called.
+2026-03-30T00:47:26.0812341Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:47:26.0814815Z Establishing network.
+2026-03-30T00:47:26.0816172Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-30T00:47:26.8857512Z Container is starting.
+2026-03-30T00:47:26.8858379Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Mounting volumes for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:47:26.8859322Z Establishing user namespace if not established already.
+2026-03-30T00:47:26.8860226Z Establishing network if not established already.
+2026-03-30T00:47:26.8861462Z Mounting volumes.
+2026-03-30T00:47:26.8863301Z Nested mountpoint 
+2026-03-30T00:47:26.9078162Z Nested mountpoint volatile/logs
+2026-03-30T00:47:26.9665453Z Nested mountpoint 
+2026-03-30T00:47:26.9754866Z Nested mountpoint 
+2026-03-30T00:47:27.0146012Z Nested mountpoint 
+2026-03-30T00:47:28.6411352Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for botfbad7a. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-30T00:47:28.6416070Z Creating container.
+2026-03-30T00:47:28.6417628Z Creating pipes for streaming container io.
+2026-03-30T00:47:28.6419283Z Creating stdout named pipe at /podr/container/pipe/a16b7bbacde2_botfbad7a/stdout_6bda2c2e8d3c40dd87d7a06326121285.
+2026-03-30T00:47:28.6421619Z Successfully created stdout named pipe at: /podr/container/pipe/a16b7bbacde2_botfbad7a/stdout_6bda2c2e8d3c40dd87d7a06326121285.
+2026-03-30T00:47:28.6423145Z Opening named pipe /podr/container/pipe/a16b7bbacde2_botfbad7a/stdout_6bda2c2e8d3c40dd87d7a06326121285 for reading in non-blocking mode.
+2026-03-30T00:47:28.6424625Z Successfully opened named pipe: /podr/container/pipe/a16b7bbacde2_botfbad7a/stdout_6bda2c2e8d3c40dd87d7a06326121285.
+2026-03-30T00:47:28.6425650Z Successfully removed non-blocking flag from /podr/container/pipe/a16b7bbacde2_botfbad7a/stdout_6bda2c2e8d3c40dd87d7a06326121285.
+2026-03-30T00:47:28.6607020Z Creating stderr named pipe at /podr/container/pipe/a16b7bbacde2_botfbad7a/stderr_ca8b03a6a7944e87af0c4051e19a3fdf.
+2026-03-30T00:47:28.6608689Z Successfully created stderr named pipe at: /podr/container/pipe/a16b7bbacde2_botfbad7a/stderr_ca8b03a6a7944e87af0c4051e19a3fdf.
+2026-03-30T00:47:28.6609699Z Opening named pipe /podr/container/pipe/a16b7bbacde2_botfbad7a/stderr_ca8b03a6a7944e87af0c4051e19a3fdf for reading in non-blocking mode.
+2026-03-30T00:47:28.6611029Z Successfully opened named pipe: /podr/container/pipe/a16b7bbacde2_botfbad7a/stderr_ca8b03a6a7944e87af0c4051e19a3fdf.
+2026-03-30T00:47:28.6611927Z Successfully removed non-blocking flag from /podr/container/pipe/a16b7bbacde2_botfbad7a/stderr_ca8b03a6a7944e87af0c4051e19a3fdf.
+2026-03-30T00:47:28.6613451Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-30T00:47:31.4278710Z Starting container: a16b7bbacde2_botfbad7a.
+2026-03-30T00:47:31.6680754Z Starting watchers and probes.
+2026-03-30T00:47:31.6690968Z Starting metrics collection.
+2026-03-30T00:47:31.6701352Z Container is running.
+2026-03-30T00:47:31.7155822Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:47:32.0128976Z Container start method finished after 5931 ms.
+2026-03-30T00:47:32.0134087Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:47:32.0703022Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-30T00:48:14.3542636Z Container has finished running with exit code: 1.
+2026-03-30T00:48:14.3610278Z Container is terminating. Grace period: 5 seconds.
+2026-03-30T00:48:14.3626636Z Stop and delete container. Retry count = 0
+2026-03-30T00:48:14.3628293Z Stopping container: a16b7bbacde2_botfbad7a.
+2026-03-30T00:48:14.4925971Z Deleting container: a16b7bbacde2_botfbad7a. Retry count = 0
+2026-03-30T00:48:14.8539335Z Container spec TerminationMessagePolicy  path 
+2026-03-30T00:48:14.8567921Z Container is terminated. Total time elapsed: 495 ms.
+2026-03-30T00:48:14.8571035Z Site container: botfbad7a terminated during site startup.
+2026-03-30T00:48:14.8670460Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:45:56, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:48:14.9597334Z Site startup probe failed after 42.8649133 seconds.
+2026-03-30T00:48:15.2726685Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:48:15.3103235Z Failed to start site. Revert by stopping site.
+2026-03-30T00:48:15.3327368Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:48:15.3333659Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site container: botfbad7a terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-30T00:48:15.3333855Z Site: botfbad7a stopped.
+2026-03-30T00:49:10.4937636Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:49:17, DetailsLevel: WARN
+2026-03-30T00:49:12.8160038Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:49:17, DetailsLevel: WARN
+2026-03-30T00:49:22.8011157Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/30/2026 00:49:17, DetailsLevel: WARN
+2026-03-30T00:49:22.8015932Z Container start method called.
+2026-03-30T00:49:22.8062498Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:49:22.8064147Z Establishing network.
+2026-03-30T00:49:22.8068461Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-30T00:49:22.9113984Z Container is starting.
+2026-03-30T00:49:22.9127818Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Mounting volumes for botfbad7a., DetailsLevel: INFO
+2026-03-30T00:49:22.9135200Z Establishing user namespace if not established already.
+2026-03-30T00:49:22.9136920Z Establishing network if not established already.
+2026-03-30T00:49:22.9138207Z Mounting volumes.
+2026-03-30T00:49:22.9139625Z Nested mountpoint 
+2026-03-30T00:49:22.9628510Z Nested mountpoint volatile/logs
+2026-03-30T00:49:22.9915368Z Nested mountpoint 
+2026-03-30T00:49:23.0029355Z Nested mountpoint 
+2026-03-30T00:49:23.0099431Z Nested mountpoint 
+2026-03-30T00:49:23.4145344Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for botfbad7a. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-30T00:49:23.4147499Z Creating container.
+2026-03-30T00:49:23.4148575Z Creating pipes for streaming container io.
+2026-03-30T00:49:23.4149691Z Creating stdout named pipe at /podr/container/pipe/742857f57a4a_botfbad7a/stdout_fbb2b0bc6f5648fa809392983ac29fb7.
+2026-03-30T00:49:23.4151515Z Successfully created stdout named pipe at: /podr/container/pipe/742857f57a4a_botfbad7a/stdout_fbb2b0bc6f5648fa809392983ac29fb7.
+2026-03-30T00:49:23.4152524Z Opening named pipe /podr/container/pipe/742857f57a4a_botfbad7a/stdout_fbb2b0bc6f5648fa809392983ac29fb7 for reading in non-blocking mode.
+2026-03-30T00:49:23.4153614Z Successfully opened named pipe: /podr/container/pipe/742857f57a4a_botfbad7a/stdout_fbb2b0bc6f5648fa809392983ac29fb7.
+2026-03-30T00:49:23.4154468Z Successfully removed non-blocking flag from /podr/container/pipe/742857f57a4a_botfbad7a/stdout_fbb2b0bc6f5648fa809392983ac29fb7.
+2026-03-30T00:49:23.4156047Z Creating stderr named pipe at /podr/container/pipe/742857f57a4a_botfbad7a/stderr_ccbf64b6335349ffad8b08bc706913ad.
+2026-03-30T00:49:23.4157405Z Successfully created stderr named pipe at: /podr/container/pipe/742857f57a4a_botfbad7a/stderr_ccbf64b6335349ffad8b08bc706913ad.
+2026-03-30T00:49:23.4158228Z Opening named pipe /podr/container/pipe/742857f57a4a_botfbad7a/stderr_ccbf64b6335349ffad8b08bc706913ad for reading in non-blocking mode.
+2026-03-30T00:49:23.4159402Z Successfully opened named pipe: /podr/container/pipe/742857f57a4a_botfbad7a/stderr_ccbf64b6335349ffad8b08bc706913ad.
+2026-03-30T00:49:23.4160252Z Successfully removed non-blocking flag from /podr/container/pipe/742857f57a4a_botfbad7a/stderr_ccbf64b6335349ffad8b08bc706913ad.
+2026-03-30T00:49:23.4161485Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-30T00:49:25.0202269Z Starting container: 742857f57a4a_botfbad7a.
+2026-03-30T00:49:25.8723581Z Starting watchers and probes.
+2026-03-30T00:49:25.8997036Z Starting metrics collection.
+2026-03-30T00:49:25.8999443Z Container is running.
+2026-03-30T00:49:25.9122365Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:49:26.6496693Z Container start method finished after 3847 ms.
+2026-03-30T00:49:26.6663428Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Container botfbad7a successfully created and is running., DetailsLevel: INFO
+2026-03-30T00:49:26.6664378Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-30T00:50:12.5946248Z Site startup probe succeeded after 45.8971494 seconds.
+2026-03-30T00:50:12.8275177Z State: Starting, Action: WarmUpProbeSucceeded, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site startup probe succeeded after 45.8971494 seconds., DetailsLevel: INFO
+2026-03-30T00:50:13.4925509Z Site is running with deployment version: 7b09c381-cb76-4955-8c14-1fe5f8008b21
+2026-03-30T00:50:13.4976736Z Site started.
+2026-03-30T00:50:13.4979108Z State: Started, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/30/2026 00:48:15, LastErrorDetails: Container did not start within expected time limit of 600s. Please inspect your container logs for more details., Details: Site started at 03/30/2026 00:50:13 (UTC), DetailsLevel: INFO
+2026-03-30T00:50:13.5299024Z Site is running with patch version PYTHON 3.11.14

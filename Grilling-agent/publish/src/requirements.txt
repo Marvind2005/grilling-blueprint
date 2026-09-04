@@ -1,0 +1,8 @@
+python-dotenv
+microsoft-agents-hosting-aiohttp
+microsoft-agents-authentication-msal
+openai
+anthropic
+microsoft-agents-a365-observability-core
+microsoft-agents-a365-runtime
+wrapt

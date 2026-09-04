@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=https://aka.ms/teams-app-test-tool-config/0.1.1/config.schema.json
+# Customize mocked Teams context (users/chats/team/channel) for local playground testing.
+version: "0.1.1"
+
+tenantId: 11111111-1111-1111-1111-111111111111
+
+bot:
+  id: 1d38c140-ee6f-4b93-ac20-b62624371fd4
+  name: Grilling Chef Companion
+
+currentUser:
+  id: user-id-0
+  name: Marvin Dsouza
+  userPrincipleName: marvin@example.com
+  aadObjectId: 22222222-2222-2222-2222-222222222220
+  givenName: Marvin
+  surname: Dsouza
+  email: marvin@example.com
+
+users:
+  - id: user-id-1
+    name: Alex Wilber
+    userPrincipleName: alexw@example.com
+    aadObjectId: 22222222-2222-2222-2222-222222222221
+    givenName: Alex
+    surname: Wilber
+    email: alexw@example.com
+  - id: user-id-2
+    name: Megan Bowen
+    userPrincipleName: meganb@example.com
+    aadObjectId: 22222222-2222-2222-2222-222222222222
+    givenName: Megan
+    surname: Bowen
+    email: meganb@example.com
+  - id: user-id-3
+    name: Adele Vance
+    userPrincipleName: adelev@example.com
+    aadObjectId: 22222222-2222-2222-2222-222222222223
+    givenName: Adele
+    surname: Vance
+    email: adelev@example.com
+  - id: user-id-4
+    name: Isaiah Langer
+    userPrincipleName: isaiahl@example.com
+    aadObjectId: 22222222-2222-2222-2222-222222222224
+    givenName: Isaiah
+    surname: Langer
+    email: isaiahl@example.com
+  - id: user-id-5
+    name: Patti Fernandez
+    userPrincipleName: pattif@example.com
+    aadObjectId: 22222222-2222-2222-2222-222222222225
+    givenName: Patti
+    surname: Fernandez
+    email: pattif@example.com
+
+personalChat:
+  id: personal-chat-id-001
+
+groupChat:
+  id: group-chat-id-001
+  name: Backyard BBQ Planning
+
+team:
+  id: grilling-team-id-001
+  name: Weekend Grill Team
+  aadGroupId: 33333333-3333-3333-3333-333333333333
+  channels:
+    - id: grilling-recipes-channel
+      name: Recipes

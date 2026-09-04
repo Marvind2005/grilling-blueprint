@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2026-03-30T00:47:04.544" instance="956969" url="/api/deployments/latest?deployer=Push-Deployer&amp;time=2026-03-30_00-44-47Z" method="GET" type="request" pid="768,1,17" Accept="application/json, text/plain, */*" Host="botfbad7a.scm.azurewebsites.net" User-Agent="axios/1.8.3" Accept-Encoding="gzip, compress, deflate, br" Authorization="Bea..." Cache-Control="no-cache" Content-Type="application/octet-stream" Content-Length="0" X-ARR-LOG-ID="b457e4f2-654b-4432-b3c6-5bda0626883f" CLIENT-IP="136.37.223.204:63542" X-SITE-DEPLOYMENT-ID="botfbad7a" WAS-DEFAULT-HOSTNAME="botfbad7a.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=Push-Deployer&amp;time=2026-03-30_00-44-47Z" X-Client-IP="136.37.223.204" X-Client-Port="63542" >
+  <step title="Cleanup Xml Logs" date="2026-03-30T00:47:04.570" /><!-- duration: 19ms -->
+  <step title="DeploymentService.GetResult" date="2026-03-30T00:47:04.666" >
+    <step title="DeploymentService.GetLatestDeployment" date="2026-03-30T00:47:04.722" >
+      <step title="DeploymentManager.GetResults" date="2026-03-30T00:47:04.726" /><!-- duration: 397ms -->
+    </step><!-- duration: 430ms -->
+  </step><!-- duration: 502ms -->
+  <step title="Outgoing response" date="2026-03-30T00:47:05.197" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 13ms -->
+</step><!-- duration: 675ms -->

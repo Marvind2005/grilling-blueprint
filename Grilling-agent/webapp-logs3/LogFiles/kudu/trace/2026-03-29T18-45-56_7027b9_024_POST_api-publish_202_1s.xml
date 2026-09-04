@@ -1,0 +1,16 @@
+<step title="Incoming Request" date="2026-03-29T18:45:56.109" instance="7027b9" url="/api/publish?type=zip&amp;async=True" method="POST" type="request" pid="782,1,26" Accept="*/*" Host="grillingagent-webapp.scm.azurewebsites.net" User-Agent="AZURECLI/2.73.0 (MSI)" Accept-Encoding="gzip, deflate" Authorization="Bea..." Cache-Control="no-cache" Content-Type="application/octet-stream" Cookie="ARRAffinity=7027b969031c94613514ec697c7e3a6d47b7688ba8957f26fe21e2914f006845; ARRAffinitySameSite=7027b969031c94613514ec697c7e3a6d47b7688ba8957f26fe21e2914f006845" Content-Length="412191" x-ms-client-request-id="7e0ac863-2b9f-11f1-b65e-c8348e418f65" x-ms-artifact-checksum="cf9a758e79e5dec13d363dead9aa0624c6f85928e19f168d5e66b65bc5e1ffcf" X-ARR-LOG-ID="7e0ac863-2b9f-11f1-b65e-c8348e418f65" CLIENT-IP="136.37.223.204:60082" X-SITE-DEPLOYMENT-ID="grillingagent-webapp" WAS-DEFAULT-HOSTNAME="grillingagent-webapp.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/publish?type=zip&amp;async=True" X-Client-IP="136.37.223.204" X-Client-Port="60082" >
+  <step title="OneDeploy" date="2026-03-29T18:45:56.375" >
+    <step title="None repository commit" date="2026-03-29T18:45:56.473" >
+      <step title="Commit id: 624b41f6-a33d-470d-98f7-515540debf6e" date="2026-03-29T18:45:56.478" Message="N/A" AuthorName="N/A" AuthorEmail="N/A" /><!-- duration: 4ms -->
+    </step><!-- duration: 14ms -->
+    <step title="Starting PushDeployAsync" date="2026-03-29T18:45:56.491" /><!-- duration: 4ms -->
+    <step title="Writing artifact to /tmp/zipdeploy/ab9a7c4e-4a10-41af-be8e-0dd1a397d8e2.zip" date="2026-03-29T18:45:56.560" >
+      <step title="Writing multipart request body to /tmp/zipdeploy/ab9a7c4e-4a10-41af-be8e-0dd1a397d8e2.zip" date="2026-03-29T18:45:56.578" /><!-- duration: 5ms -->
+    </step><!-- duration: 173ms -->
+    <step title="Start deployment in the background" date="2026-03-29T18:45:56.752" >
+      <step title="Acquiring Deployment Lock" date="2026-03-29T18:45:56.872" /><!-- duration: 11ms -->
+      <step title="Acquired Deployment Lock" date="2026-03-29T18:45:56.963" /><!-- duration: 4ms -->
+    </step><!-- duration: 399ms -->
+  </step><!-- duration: 798ms -->
+  <step title="Outgoing response" date="2026-03-29T18:45:57.181" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 5ms -->
+</step><!-- duration: 1081ms -->

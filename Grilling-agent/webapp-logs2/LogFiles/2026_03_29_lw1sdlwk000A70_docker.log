@@ -1,0 +1,433 @@
+2026-03-29T03:26:28.3202867Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:26:32.7809041Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:26:48.4152799Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:26:48.4164430Z Container start method called.
+2026-03-29T03:26:48.4174677Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.1:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:26:48.4180654Z Establishing network.
+2026-03-29T03:26:48.4184325Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:26:49.6649548Z Image appsvc/python:3.11_20260203.2.tuxprod is pulled from registry 10.1.6.1:13209
+2026-03-29T03:26:49.6651110Z Container is starting.
+2026-03-29T03:26:49.6663338Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:26:49.6665920Z Establishing user namespace if not established already.
+2026-03-29T03:26:49.6668222Z Establishing network if not established already.
+2026-03-29T03:26:49.6669641Z Mounting volumes.
+2026-03-29T03:26:49.6671658Z Nested mountpoint 
+2026-03-29T03:26:49.8260825Z Nested mountpoint volatile/logs
+2026-03-29T03:26:49.8771828Z Nested mountpoint 
+2026-03-29T03:26:50.0408962Z Nested mountpoint 
+2026-03-29T03:26:50.1269976Z Nested mountpoint 
+2026-03-29T03:26:50.7741422Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:26:50.7755834Z Creating container.
+2026-03-29T03:26:50.7758034Z Creating pipes for streaming container io.
+2026-03-29T03:26:50.7759309Z Creating stdout named pipe at /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stdout_5276117027194d46b0b9b68ad2b5b8a7.
+2026-03-29T03:26:50.7851331Z Successfully created stdout named pipe at: /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stdout_5276117027194d46b0b9b68ad2b5b8a7.
+2026-03-29T03:26:50.7930571Z Opening named pipe /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stdout_5276117027194d46b0b9b68ad2b5b8a7 for reading in non-blocking mode.
+2026-03-29T03:26:50.7934887Z Successfully opened named pipe: /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stdout_5276117027194d46b0b9b68ad2b5b8a7.
+2026-03-29T03:26:50.7937235Z Successfully removed non-blocking flag from /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stdout_5276117027194d46b0b9b68ad2b5b8a7.
+2026-03-29T03:26:50.7950718Z Creating stderr named pipe at /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stderr_ad853dee112345dd93e31ca04351d10b.
+2026-03-29T03:26:50.8039259Z Successfully created stderr named pipe at: /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stderr_ad853dee112345dd93e31ca04351d10b.
+2026-03-29T03:26:50.8110845Z Opening named pipe /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stderr_ad853dee112345dd93e31ca04351d10b for reading in non-blocking mode.
+2026-03-29T03:26:50.8114777Z Successfully opened named pipe: /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stderr_ad853dee112345dd93e31ca04351d10b.
+2026-03-29T03:26:50.8122593Z Successfully removed non-blocking flag from /podr/container/pipe/1dc064fe9b21_grillingagent-webapp/stderr_ad853dee112345dd93e31ca04351d10b.
+2026-03-29T03:26:50.8126006Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.1:13209 and fully qualified image name: 10.1.6.1:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:26:51.7256280Z Starting container: 1dc064fe9b21_grillingagent-webapp.
+2026-03-29T03:26:51.8224708Z Starting watchers and probes.
+2026-03-29T03:26:51.8311515Z Starting metrics collection.
+2026-03-29T03:26:51.8405334Z Container is running.
+2026-03-29T03:26:51.8417261Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:26:52.3488105Z Container start method finished after 3930 ms.
+2026-03-29T03:26:52.3761673Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:26:52.3847588Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:28:23.4724996Z Site startup probe succeeded after 91.0648143 seconds.
+2026-03-29T03:28:23.8107851Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 91.0648143 seconds., DetailsLevel: INFO
+2026-03-29T03:28:24.5651608Z Site is running with deployment version: 5e05e3fb-ce39-433c-9cce-2bb0bdff09e8
+2026-03-29T03:28:24.5685725Z Site started.
+2026-03-29T03:28:24.5686837Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:28:24 (UTC), DetailsLevel: INFO
+2026-03-29T03:28:24.6751042Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T03:48:01.1850430Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:48:10.6547368Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:48:36.2248132Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:48:36.2251278Z Container start method called.
+2026-03-29T03:48:36.2251957Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:48:36.2331342Z Establishing network.
+2026-03-29T03:48:36.2333880Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:48:37.1615625Z Container is starting.
+2026-03-29T03:48:37.1617275Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:48:37.1627214Z Establishing user namespace if not established already.
+2026-03-29T03:48:37.1628900Z Establishing network if not established already.
+2026-03-29T03:48:37.1634213Z Mounting volumes.
+2026-03-29T03:48:37.1707369Z Nested mountpoint 
+2026-03-29T03:48:37.4065426Z Nested mountpoint volatile/logs
+2026-03-29T03:48:37.5385805Z Nested mountpoint 
+2026-03-29T03:48:37.5592527Z Nested mountpoint 
+2026-03-29T03:48:37.5688702Z Nested mountpoint 
+2026-03-29T03:48:40.4032534Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:48:40.4039634Z Creating container.
+2026-03-29T03:48:40.4116618Z Creating pipes for streaming container io.
+2026-03-29T03:48:40.4142139Z Creating stdout named pipe at /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stdout_cc689004918a44b2b0dde07dac037a07.
+2026-03-29T03:48:40.4610404Z Successfully created stdout named pipe at: /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stdout_cc689004918a44b2b0dde07dac037a07.
+2026-03-29T03:48:40.4612087Z Opening named pipe /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stdout_cc689004918a44b2b0dde07dac037a07 for reading in non-blocking mode.
+2026-03-29T03:48:40.4613738Z Successfully opened named pipe: /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stdout_cc689004918a44b2b0dde07dac037a07.
+2026-03-29T03:48:40.4615067Z Successfully removed non-blocking flag from /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stdout_cc689004918a44b2b0dde07dac037a07.
+2026-03-29T03:48:40.4800788Z Creating stderr named pipe at /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stderr_b5e440af19404f50a2a4550462058c11.
+2026-03-29T03:48:40.4803100Z Successfully created stderr named pipe at: /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stderr_b5e440af19404f50a2a4550462058c11.
+2026-03-29T03:48:40.4804176Z Opening named pipe /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stderr_b5e440af19404f50a2a4550462058c11 for reading in non-blocking mode.
+2026-03-29T03:48:40.4805499Z Successfully opened named pipe: /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stderr_b5e440af19404f50a2a4550462058c11.
+2026-03-29T03:48:40.4906597Z Successfully removed non-blocking flag from /podr/container/pipe/302a9ea4040d_grillingagent-webapp/stderr_b5e440af19404f50a2a4550462058c11.
+2026-03-29T03:48:40.4910896Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:48:44.3898590Z Starting container: 302a9ea4040d_grillingagent-webapp.
+2026-03-29T03:48:44.5585842Z Starting watchers and probes.
+2026-03-29T03:48:44.5652332Z Starting metrics collection.
+2026-03-29T03:48:44.5656590Z Container is running.
+2026-03-29T03:48:44.5729348Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:48:45.0071181Z Container start method finished after 8781 ms.
+2026-03-29T03:48:45.0161749Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:48:45.0265170Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:51:55.5786695Z Site startup probe succeeded after 190.3023536 seconds.
+2026-03-29T03:51:56.7993153Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 190.3023536 seconds., DetailsLevel: INFO
+2026-03-29T03:52:03.6318345Z Site is running with deployment version: 5e05e3fb-ce39-433c-9cce-2bb0bdff09e8
+2026-03-29T03:52:03.6581966Z Site started.
+2026-03-29T03:52:03.6675854Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:52:03 (UTC), DetailsLevel: INFO
+2026-03-29T03:52:03.7294036Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T03:52:30.6625087Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:28:24 (UTC), DetailsLevel: INFO
+2026-03-29T03:52:31.5272476Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:28:24 (UTC), DetailsLevel: INFO
+2026-03-29T03:52:31.9752227Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:52:35.8753804Z Stop and delete container. Retry count = 0
+2026-03-29T03:52:36.0540244Z Stopping container: 1dc064fe9b21_grillingagent-webapp.
+2026-03-29T03:52:41.0208187Z Deleting container: 1dc064fe9b21_grillingagent-webapp. Retry count = 0
+2026-03-29T03:53:10.7493361Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:53:11.4133973Z Container is terminated. Total time elapsed: 38885 ms.
+2026-03-29T03:53:11.9094944Z Site: grillingagent-webapp stopped.
+2026-03-29T03:55:28.3423470Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:55:34.1735701Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:55:56.5087449Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:55:56.5092586Z Container start method called.
+2026-03-29T03:55:56.5093633Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:55:56.5095003Z Establishing network.
+2026-03-29T03:55:56.5096782Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:56:00.2497684Z Container is starting.
+2026-03-29T03:56:00.2499191Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:56:00.2501258Z Establishing user namespace if not established already.
+2026-03-29T03:56:00.2502552Z Establishing network if not established already.
+2026-03-29T03:56:00.2503972Z Mounting volumes.
+2026-03-29T03:56:00.3668042Z Nested mountpoint 
+2026-03-29T03:56:00.6275252Z Nested mountpoint volatile/logs
+2026-03-29T03:56:00.6844274Z Nested mountpoint 
+2026-03-29T03:56:00.9648091Z Nested mountpoint 
+2026-03-29T03:56:01.2698349Z Nested mountpoint 
+2026-03-29T03:56:05.6426822Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:56:05.6433815Z Creating container.
+2026-03-29T03:56:05.6435256Z Creating pipes for streaming container io.
+2026-03-29T03:56:05.6436490Z Creating stdout named pipe at /podr/container/pipe/1445ea18e287_grillingagent-webapp/stdout_27275bc664634117a072cdf7024a540e.
+2026-03-29T03:56:05.6438896Z Successfully created stdout named pipe at: /podr/container/pipe/1445ea18e287_grillingagent-webapp/stdout_27275bc664634117a072cdf7024a540e.
+2026-03-29T03:56:05.6624794Z Opening named pipe /podr/container/pipe/1445ea18e287_grillingagent-webapp/stdout_27275bc664634117a072cdf7024a540e for reading in non-blocking mode.
+2026-03-29T03:56:05.6628979Z Successfully opened named pipe: /podr/container/pipe/1445ea18e287_grillingagent-webapp/stdout_27275bc664634117a072cdf7024a540e.
+2026-03-29T03:56:05.6640081Z Successfully removed non-blocking flag from /podr/container/pipe/1445ea18e287_grillingagent-webapp/stdout_27275bc664634117a072cdf7024a540e.
+2026-03-29T03:56:05.6649601Z Creating stderr named pipe at /podr/container/pipe/1445ea18e287_grillingagent-webapp/stderr_c32b3cc084304f4f859561da117f948a.
+2026-03-29T03:56:05.6652949Z Successfully created stderr named pipe at: /podr/container/pipe/1445ea18e287_grillingagent-webapp/stderr_c32b3cc084304f4f859561da117f948a.
+2026-03-29T03:56:05.6742208Z Opening named pipe /podr/container/pipe/1445ea18e287_grillingagent-webapp/stderr_c32b3cc084304f4f859561da117f948a for reading in non-blocking mode.
+2026-03-29T03:56:05.6744674Z Successfully opened named pipe: /podr/container/pipe/1445ea18e287_grillingagent-webapp/stderr_c32b3cc084304f4f859561da117f948a.
+2026-03-29T03:56:05.6745930Z Successfully removed non-blocking flag from /podr/container/pipe/1445ea18e287_grillingagent-webapp/stderr_c32b3cc084304f4f859561da117f948a.
+2026-03-29T03:56:05.6750839Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:56:08.3430199Z Starting container: 1445ea18e287_grillingagent-webapp.
+2026-03-29T03:56:08.6258505Z Starting watchers and probes.
+2026-03-29T03:56:08.6261242Z Starting metrics collection.
+2026-03-29T03:56:08.6366889Z Container is running.
+2026-03-29T03:56:08.6368181Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:56:09.0165065Z Container start method finished after 12507 ms.
+2026-03-29T03:56:09.0891709Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:56:09.2071723Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:57:31.5643937Z Site startup probe succeeded after 82.1454117 seconds.
+2026-03-29T03:57:32.5591574Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 82.1454117 seconds., DetailsLevel: INFO
+2026-03-29T03:57:35.7915107Z Site is running with deployment version: f3502675-c6ba-4879-b60c-53bf60a552d2
+2026-03-29T03:57:35.8227313Z Site started.
+2026-03-29T03:57:35.8509349Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:57:35 (UTC), DetailsLevel: INFO
+2026-03-29T03:57:35.9180055Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T03:57:56.6528965Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:52:03 (UTC), DetailsLevel: INFO
+2026-03-29T03:57:56.7302377Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:52:03 (UTC), DetailsLevel: INFO
+2026-03-29T03:57:56.7751188Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:57:56.9109683Z Stop and delete container. Retry count = 0
+2026-03-29T03:57:56.9221818Z Stopping container: 302a9ea4040d_grillingagent-webapp.
+2026-03-29T03:58:03.0271725Z Deleting container: 302a9ea4040d_grillingagent-webapp. Retry count = 0
+2026-03-29T03:58:13.3102861Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:58:13.3310168Z Container is terminated. Total time elapsed: 16507 ms.
+2026-03-29T03:58:13.3485213Z Site: grillingagent-webapp stopped.
+2026-03-29T03:59:57.1886265Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:00:03.7373769Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:00:29.7378352Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:00:29.7424909Z Container start method called.
+2026-03-29T04:00:29.7433585Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:00:29.7513726Z Establishing network.
+2026-03-29T04:00:29.7531414Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T04:00:30.1670009Z Container is starting.
+2026-03-29T04:00:30.1742398Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:00:30.1747709Z Establishing user namespace if not established already.
+2026-03-29T04:00:30.1750976Z Establishing network if not established already.
+2026-03-29T04:00:30.1752478Z Mounting volumes.
+2026-03-29T04:00:30.1837780Z Nested mountpoint 
+2026-03-29T04:00:30.3004467Z Nested mountpoint volatile/logs
+2026-03-29T04:00:30.3310501Z Nested mountpoint 
+2026-03-29T04:00:30.5898564Z Nested mountpoint 
+2026-03-29T04:00:30.6415736Z Nested mountpoint 
+2026-03-29T04:00:32.1385715Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T04:00:32.1558309Z Creating container.
+2026-03-29T04:00:32.1560594Z Creating pipes for streaming container io.
+2026-03-29T04:00:32.1563742Z Creating stdout named pipe at /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stdout_b9d4ff1d8ca7425aa6b0499afcd3552e.
+2026-03-29T04:00:32.1567621Z Successfully created stdout named pipe at: /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stdout_b9d4ff1d8ca7425aa6b0499afcd3552e.
+2026-03-29T04:00:32.1568797Z Opening named pipe /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stdout_b9d4ff1d8ca7425aa6b0499afcd3552e for reading in non-blocking mode.
+2026-03-29T04:00:32.1570277Z Successfully opened named pipe: /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stdout_b9d4ff1d8ca7425aa6b0499afcd3552e.
+2026-03-29T04:00:32.1744152Z Successfully removed non-blocking flag from /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stdout_b9d4ff1d8ca7425aa6b0499afcd3552e.
+2026-03-29T04:00:32.1768496Z Creating stderr named pipe at /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stderr_8290cd0a7e2f40b5955e5c84fe8ae455.
+2026-03-29T04:00:32.1771209Z Successfully created stderr named pipe at: /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stderr_8290cd0a7e2f40b5955e5c84fe8ae455.
+2026-03-29T04:00:32.1772338Z Opening named pipe /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stderr_8290cd0a7e2f40b5955e5c84fe8ae455 for reading in non-blocking mode.
+2026-03-29T04:00:32.1773756Z Successfully opened named pipe: /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stderr_8290cd0a7e2f40b5955e5c84fe8ae455.
+2026-03-29T04:00:32.1775130Z Successfully removed non-blocking flag from /podr/container/pipe/35740aec5dc9_grillingagent-webapp/stderr_8290cd0a7e2f40b5955e5c84fe8ae455.
+2026-03-29T04:00:32.1776624Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T04:00:34.3157756Z Starting container: 35740aec5dc9_grillingagent-webapp.
+2026-03-29T04:00:34.5413156Z Starting watchers and probes.
+2026-03-29T04:00:34.5521571Z Starting metrics collection.
+2026-03-29T04:00:34.5590659Z Container is running.
+2026-03-29T04:00:34.5605478Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:00:34.9128174Z Container start method finished after 5169 ms.
+2026-03-29T04:00:34.9131806Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:00:35.0065642Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T04:01:55.8589457Z Site startup probe succeeded after 80.6911918 seconds.
+2026-03-29T04:01:56.6233678Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 80.6911918 seconds., DetailsLevel: INFO
+2026-03-29T04:01:57.8322454Z Site is running with deployment version: 34cff01a-f0ed-4eda-b1f0-c29e8208bcff
+2026-03-29T04:01:57.8433858Z Site started.
+2026-03-29T04:01:57.8514377Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:01:57 (UTC), DetailsLevel: INFO
+2026-03-29T04:01:57.8652259Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T04:02:18.0363110Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:57:35 (UTC), DetailsLevel: INFO
+2026-03-29T04:02:18.0551802Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 03:57:35 (UTC), DetailsLevel: INFO
+2026-03-29T04:02:18.0801357Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T04:02:18.7970410Z Stop and delete container. Retry count = 0
+2026-03-29T04:02:18.7992863Z Stopping container: 1445ea18e287_grillingagent-webapp.
+2026-03-29T04:02:23.8008091Z Deleting container: 1445ea18e287_grillingagent-webapp. Retry count = 0
+2026-03-29T04:02:29.9922838Z Container spec TerminationMessagePolicy  path 
+2026-03-29T04:02:30.0148680Z Container is terminated. Total time elapsed: 11924 ms.
+2026-03-29T04:02:30.0522423Z Site: grillingagent-webapp stopped.
+2026-03-29T04:17:05.6937840Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:17:13.6653129Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:17:47.6326232Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:17:47.6334075Z Container start method called.
+2026-03-29T04:17:47.6337392Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:17:47.6341057Z Establishing network.
+2026-03-29T04:17:47.6442022Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T04:17:51.2416962Z Container is starting.
+2026-03-29T04:17:51.2418037Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:17:51.2580730Z Establishing user namespace if not established already.
+2026-03-29T04:17:51.2582556Z Establishing network if not established already.
+2026-03-29T04:17:51.2583988Z Mounting volumes.
+2026-03-29T04:17:51.2873261Z Nested mountpoint 
+2026-03-29T04:17:51.4406414Z Nested mountpoint volatile/logs
+2026-03-29T04:17:51.4897812Z Nested mountpoint 
+2026-03-29T04:17:51.5873899Z Nested mountpoint 
+2026-03-29T04:17:51.7630827Z Nested mountpoint 
+2026-03-29T04:17:55.8525720Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T04:17:55.8549917Z Creating container.
+2026-03-29T04:17:55.8553768Z Creating pipes for streaming container io.
+2026-03-29T04:17:55.9000230Z Creating stdout named pipe at /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stdout_f264748e646844998d03b8f544eedfa1.
+2026-03-29T04:17:55.9087058Z Successfully created stdout named pipe at: /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stdout_f264748e646844998d03b8f544eedfa1.
+2026-03-29T04:17:55.9180637Z Opening named pipe /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stdout_f264748e646844998d03b8f544eedfa1 for reading in non-blocking mode.
+2026-03-29T04:17:55.9306626Z Successfully opened named pipe: /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stdout_f264748e646844998d03b8f544eedfa1.
+2026-03-29T04:17:55.9367178Z Successfully removed non-blocking flag from /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stdout_f264748e646844998d03b8f544eedfa1.
+2026-03-29T04:17:55.9391262Z Creating stderr named pipe at /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stderr_f676b701771d4939b699a17fb29e0e9a.
+2026-03-29T04:17:55.9394807Z Successfully created stderr named pipe at: /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stderr_f676b701771d4939b699a17fb29e0e9a.
+2026-03-29T04:17:56.1406109Z Opening named pipe /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stderr_f676b701771d4939b699a17fb29e0e9a for reading in non-blocking mode.
+2026-03-29T04:17:56.1481509Z Successfully opened named pipe: /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stderr_f676b701771d4939b699a17fb29e0e9a.
+2026-03-29T04:17:56.1484760Z Successfully removed non-blocking flag from /podr/container/pipe/5b309733b3fe_grillingagent-webapp/stderr_f676b701771d4939b699a17fb29e0e9a.
+2026-03-29T04:17:56.1489989Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T04:18:01.1244061Z Starting container: 5b309733b3fe_grillingagent-webapp.
+2026-03-29T04:18:01.4180166Z Starting watchers and probes.
+2026-03-29T04:18:01.4574202Z Starting metrics collection.
+2026-03-29T04:18:01.4579465Z Container is running.
+2026-03-29T04:18:01.4662574Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:18:01.6759281Z Container start method finished after 14041 ms.
+2026-03-29T04:18:01.9300642Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:18:01.9567718Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T04:20:28.3223511Z Site startup probe succeeded after 146.2428863 seconds.
+2026-03-29T04:20:29.2646348Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 146.2428863 seconds., DetailsLevel: INFO
+2026-03-29T04:20:33.4385811Z Site is running with deployment version: 34cff01a-f0ed-4eda-b1f0-c29e8208bcff
+2026-03-29T04:20:33.4719204Z Site started.
+2026-03-29T04:20:33.4902554Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:20:33 (UTC), DetailsLevel: INFO
+2026-03-29T04:20:33.6140611Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T04:20:55.7254782Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:01:57 (UTC), DetailsLevel: INFO
+2026-03-29T04:20:56.5578798Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:01:57 (UTC), DetailsLevel: INFO
+2026-03-29T04:20:56.6415414Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T04:21:00.0688139Z Stop and delete container. Retry count = 0
+2026-03-29T04:21:00.1334224Z Stopping container: 35740aec5dc9_grillingagent-webapp.
+2026-03-29T04:21:04.0620522Z Deleting container: 35740aec5dc9_grillingagent-webapp. Retry count = 0
+2026-03-29T04:21:18.4229983Z Container spec TerminationMessagePolicy  path 
+2026-03-29T04:21:18.4344041Z Container is terminated. Total time elapsed: 21647 ms.
+2026-03-29T04:21:18.4529722Z Site: grillingagent-webapp stopped.
+2026-03-29T04:24:39.6118798Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:24:48.2884156Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:25:13.0652713Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T04:25:13.0702209Z Container start method called.
+2026-03-29T04:25:13.0718483Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:25:13.0723601Z Establishing network.
+2026-03-29T04:25:13.0731035Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T04:25:13.7278319Z Container is starting.
+2026-03-29T04:25:13.7279843Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T04:25:13.7281673Z Establishing user namespace if not established already.
+2026-03-29T04:25:13.7283476Z Establishing network if not established already.
+2026-03-29T04:25:13.7305366Z Mounting volumes.
+2026-03-29T04:25:13.7378657Z Nested mountpoint 
+2026-03-29T04:25:13.8705560Z Nested mountpoint volatile/logs
+2026-03-29T04:25:13.9019262Z Nested mountpoint 
+2026-03-29T04:25:14.0273598Z Nested mountpoint 
+2026-03-29T04:25:14.0756395Z Nested mountpoint 
+2026-03-29T04:25:15.5096203Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T04:25:15.5246337Z Creating container.
+2026-03-29T04:25:15.5267561Z Creating pipes for streaming container io.
+2026-03-29T04:25:15.5631685Z Creating stdout named pipe at /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stdout_bbaf4671b90d4a05a8bc8c509e360319.
+2026-03-29T04:25:15.5841196Z Successfully created stdout named pipe at: /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stdout_bbaf4671b90d4a05a8bc8c509e360319.
+2026-03-29T04:25:15.5901705Z Opening named pipe /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stdout_bbaf4671b90d4a05a8bc8c509e360319 for reading in non-blocking mode.
+2026-03-29T04:25:15.6018351Z Successfully opened named pipe: /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stdout_bbaf4671b90d4a05a8bc8c509e360319.
+2026-03-29T04:25:15.6034050Z Successfully removed non-blocking flag from /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stdout_bbaf4671b90d4a05a8bc8c509e360319.
+2026-03-29T04:25:15.6125133Z Creating stderr named pipe at /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stderr_2778ba2122d54a82ac97239001b8665b.
+2026-03-29T04:25:15.6377266Z Successfully created stderr named pipe at: /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stderr_2778ba2122d54a82ac97239001b8665b.
+2026-03-29T04:25:15.6861444Z Opening named pipe /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stderr_2778ba2122d54a82ac97239001b8665b for reading in non-blocking mode.
+2026-03-29T04:25:15.6865929Z Successfully opened named pipe: /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stderr_2778ba2122d54a82ac97239001b8665b.
+2026-03-29T04:25:15.6940587Z Successfully removed non-blocking flag from /podr/container/pipe/8ec6d8b8e364_grillingagent-webapp/stderr_2778ba2122d54a82ac97239001b8665b.
+2026-03-29T04:25:15.7018301Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T04:25:18.2036692Z Starting container: 8ec6d8b8e364_grillingagent-webapp.
+2026-03-29T04:25:18.5299313Z Starting watchers and probes.
+2026-03-29T04:25:18.5487723Z Starting metrics collection.
+2026-03-29T04:25:18.5491733Z Container is running.
+2026-03-29T04:25:18.5611679Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:25:18.7941506Z Container start method finished after 5723 ms.
+2026-03-29T04:25:18.8433864Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T04:25:18.8527363Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T04:26:35.0712841Z Site startup probe succeeded after 76.0454029 seconds.
+2026-03-29T04:26:35.4652642Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 76.0454029 seconds., DetailsLevel: INFO
+2026-03-29T04:26:36.1432971Z Site is running with deployment version: 57c70fba-56dc-4318-b2a6-03a5cf2f9800
+2026-03-29T04:26:36.1486236Z Site started.
+2026-03-29T04:26:36.1492183Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:26:36 (UTC), DetailsLevel: INFO
+2026-03-29T04:26:36.1595374Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T04:26:56.3492156Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:20:33 (UTC), DetailsLevel: INFO
+2026-03-29T04:26:56.3584461Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:20:33 (UTC), DetailsLevel: INFO
+2026-03-29T04:26:56.3636775Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T04:26:56.5732273Z Stop and delete container. Retry count = 0
+2026-03-29T04:26:56.6017992Z Stopping container: 5b309733b3fe_grillingagent-webapp.
+2026-03-29T04:27:01.9660200Z Deleting container: 5b309733b3fe_grillingagent-webapp. Retry count = 0
+2026-03-29T04:27:05.7815889Z Container spec TerminationMessagePolicy  path 
+2026-03-29T04:27:05.7881146Z Container is terminated. Total time elapsed: 9417 ms.
+2026-03-29T04:27:05.7894968Z Site: grillingagent-webapp stopped.
+2026-03-29T18:48:46.0208050Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:48:53.0298688Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:49:09.1107701Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:49:09.1117725Z Container start method called.
+2026-03-29T18:49:09.1192676Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T18:49:09.1200127Z Establishing network.
+2026-03-29T18:49:09.1206152Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T18:49:09.4098215Z Container is starting.
+2026-03-29T18:49:09.4179780Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T18:49:09.4189978Z Establishing user namespace if not established already.
+2026-03-29T18:49:09.4192469Z Establishing network if not established already.
+2026-03-29T18:49:09.4194106Z Mounting volumes.
+2026-03-29T18:49:09.4195792Z Nested mountpoint 
+2026-03-29T18:49:09.4667413Z Nested mountpoint volatile/logs
+2026-03-29T18:49:09.5449323Z Nested mountpoint 
+2026-03-29T18:49:09.6227944Z Nested mountpoint 
+2026-03-29T18:49:09.6344894Z Nested mountpoint 
+2026-03-29T18:49:10.9622280Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T18:49:10.9629334Z Creating container.
+2026-03-29T18:49:10.9696681Z Creating pipes for streaming container io.
+2026-03-29T18:49:10.9702728Z Creating stdout named pipe at /podr/container/pipe/5024fff805cf_grillingagent-webapp/stdout_c036e8a4c74a41b7a071da1a73353c2f.
+2026-03-29T18:49:10.9708197Z Successfully created stdout named pipe at: /podr/container/pipe/5024fff805cf_grillingagent-webapp/stdout_c036e8a4c74a41b7a071da1a73353c2f.
+2026-03-29T18:49:10.9710118Z Opening named pipe /podr/container/pipe/5024fff805cf_grillingagent-webapp/stdout_c036e8a4c74a41b7a071da1a73353c2f for reading in non-blocking mode.
+2026-03-29T18:49:10.9714184Z Successfully opened named pipe: /podr/container/pipe/5024fff805cf_grillingagent-webapp/stdout_c036e8a4c74a41b7a071da1a73353c2f.
+2026-03-29T18:49:10.9805052Z Successfully removed non-blocking flag from /podr/container/pipe/5024fff805cf_grillingagent-webapp/stdout_c036e8a4c74a41b7a071da1a73353c2f.
+2026-03-29T18:49:11.0108405Z Creating stderr named pipe at /podr/container/pipe/5024fff805cf_grillingagent-webapp/stderr_5d7149db20794e929cd058d493fc654f.
+2026-03-29T18:49:11.0852976Z Successfully created stderr named pipe at: /podr/container/pipe/5024fff805cf_grillingagent-webapp/stderr_5d7149db20794e929cd058d493fc654f.
+2026-03-29T18:49:11.0856720Z Opening named pipe /podr/container/pipe/5024fff805cf_grillingagent-webapp/stderr_5d7149db20794e929cd058d493fc654f for reading in non-blocking mode.
+2026-03-29T18:49:11.0858542Z Successfully opened named pipe: /podr/container/pipe/5024fff805cf_grillingagent-webapp/stderr_5d7149db20794e929cd058d493fc654f.
+2026-03-29T18:49:11.0859795Z Successfully removed non-blocking flag from /podr/container/pipe/5024fff805cf_grillingagent-webapp/stderr_5d7149db20794e929cd058d493fc654f.
+2026-03-29T18:49:11.0873517Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T18:49:11.9068068Z Starting container: 5024fff805cf_grillingagent-webapp.
+2026-03-29T18:49:12.3191420Z Starting watchers and probes.
+2026-03-29T18:49:12.3490946Z Starting metrics collection.
+2026-03-29T18:49:12.3589578Z Container is running.
+2026-03-29T18:49:12.3597794Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T18:49:12.9504835Z Container start method finished after 3838 ms.
+2026-03-29T18:49:12.9512589Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T18:49:12.9615831Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T18:50:26.2248918Z Site startup probe succeeded after 73.1062899 seconds.
+2026-03-29T18:50:26.6271862Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 73.1062899 seconds., DetailsLevel: INFO
+2026-03-29T18:50:27.9457883Z Site is running with deployment version: 624b41f6-a33d-470d-98f7-515540debf6e
+2026-03-29T18:50:27.9644450Z Site started.
+2026-03-29T18:50:27.9668187Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 18:50:27 (UTC), DetailsLevel: INFO
+2026-03-29T18:50:27.9951880Z Site is running with patch version PYTHON 3.11.14
+2026-03-29T18:50:48.4628001Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:26:36 (UTC), DetailsLevel: INFO
+2026-03-29T18:50:48.4944397Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 04:26:36 (UTC), DetailsLevel: INFO
+2026-03-29T18:50:48.5021580Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T18:50:48.9413547Z Stop and delete container. Retry count = 0
+2026-03-29T18:50:48.9493573Z Stopping container: 8ec6d8b8e364_grillingagent-webapp.
+2026-03-29T18:50:55.3124433Z Deleting container: 8ec6d8b8e364_grillingagent-webapp. Retry count = 0
+2026-03-29T18:51:01.7206070Z Container spec TerminationMessagePolicy  path 
+2026-03-29T18:51:01.7307905Z Container is terminated. Total time elapsed: 13218 ms.
+2026-03-29T18:51:01.7397592Z Site: grillingagent-webapp stopped.
+2026-03-29T18:51:33.1721022Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:51:42.6278298Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:51:50.7836526Z Site container: grillingagent-webapp_managedIdentity terminated during site startup.
+2026-03-29T18:51:50.8413464Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T18:51:50.8638864Z State: Starting, Action: StartingMsiContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: , DetailsLevel: WARN
+2026-03-29T18:51:51.1230750Z Site container: grillingagent-webapp_managedIdentity terminated. Stopping the entire site.
+2026-03-29T18:51:51.1976684Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: , DetailsLevel: WARN
+2026-03-29T18:51:51.2122657Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: , DetailsLevel: WARN
+2026-03-29T18:51:51.2123145Z Site: grillingagent-webapp stopped.
+2026-03-29T18:52:12.0118780Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 18:50:27 (UTC), DetailsLevel: INFO
+2026-03-29T18:52:12.0229158Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/29/2026 18:50:27 (UTC), DetailsLevel: INFO
+2026-03-29T18:52:12.0304459Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T18:52:12.1759401Z Stop and delete container. Retry count = 0
+2026-03-29T18:52:12.2297452Z Stopping container: 5024fff805cf_grillingagent-webapp.
+2026-03-29T18:52:18.5794310Z Deleting container: 5024fff805cf_grillingagent-webapp. Retry count = 0
+2026-03-29T18:52:27.2053142Z Container spec TerminationMessagePolicy  path 
+2026-03-29T18:52:27.2334632Z Container is terminated. Total time elapsed: 15182 ms.
+2026-03-29T18:52:27.3598868Z Site: grillingagent-webapp stopped.
+2026-03-29T18:52:56.7932940Z State: Starting, Action: EstablishingSiteNetworks, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Site stopped at 03/29/2026 18:51:56 (UTC), DetailsLevel: WARN
+2026-03-29T18:53:00.0663557Z State: Starting, Action: StartingMsiContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Site stopped at 03/29/2026 18:51:56 (UTC), DetailsLevel: WARN
+2026-03-29T18:53:16.7847169Z State: Starting, Action: StartingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Site stopped at 03/29/2026 18:51:56 (UTC), DetailsLevel: WARN
+2026-03-29T18:53:16.7853840Z Container start method called.
+2026-03-29T18:53:16.7870552Z State: Starting, Action: PullingImage, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T18:53:16.7876112Z Establishing network.
+2026-03-29T18:53:16.8143096Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T18:53:17.0822400Z Container is starting.
+2026-03-29T18:53:17.0823567Z State: Starting, Action: MountingVolumes, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T18:53:17.0824824Z Establishing user namespace if not established already.
+2026-03-29T18:53:17.0826120Z Establishing network if not established already.
+2026-03-29T18:53:17.0851010Z Mounting volumes.
+2026-03-29T18:53:17.1036911Z Nested mountpoint 
+2026-03-29T18:53:17.1816172Z Nested mountpoint volatile/logs
+2026-03-29T18:53:17.2698593Z Nested mountpoint 
+2026-03-29T18:53:17.2815602Z Nested mountpoint 
+2026-03-29T18:53:17.3004001Z Nested mountpoint 
+2026-03-29T18:53:18.3662882Z State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T18:53:18.3759836Z Creating container.
+2026-03-29T18:53:18.3769045Z Creating pipes for streaming container io.
+2026-03-29T18:53:18.4253469Z Creating stdout named pipe at /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stdout_95d966eaca9543f88e8c38b5f6c6479f.
+2026-03-29T18:53:18.4268016Z Successfully created stdout named pipe at: /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stdout_95d966eaca9543f88e8c38b5f6c6479f.
+2026-03-29T18:53:18.4280419Z Opening named pipe /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stdout_95d966eaca9543f88e8c38b5f6c6479f for reading in non-blocking mode.
+2026-03-29T18:53:18.4447660Z Successfully opened named pipe: /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stdout_95d966eaca9543f88e8c38b5f6c6479f.
+2026-03-29T18:53:18.4452583Z Successfully removed non-blocking flag from /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stdout_95d966eaca9543f88e8c38b5f6c6479f.
+2026-03-29T18:53:18.4458977Z Creating stderr named pipe at /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stderr_266e7b6abcaa4898b86ff4dd1ace25f2.
+2026-03-29T18:53:18.4463742Z Successfully created stderr named pipe at: /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stderr_266e7b6abcaa4898b86ff4dd1ace25f2.
+2026-03-29T18:53:18.4475265Z Opening named pipe /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stderr_266e7b6abcaa4898b86ff4dd1ace25f2 for reading in non-blocking mode.
+2026-03-29T18:53:18.4478795Z Successfully opened named pipe: /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stderr_266e7b6abcaa4898b86ff4dd1ace25f2.
+2026-03-29T18:53:18.4483947Z Successfully removed non-blocking flag from /podr/container/pipe/6fa7f48719e6_grillingagent-webapp/stderr_266e7b6abcaa4898b86ff4dd1ace25f2.
+2026-03-29T18:53:18.4673341Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T18:53:19.2651193Z Starting container: 6fa7f48719e6_grillingagent-webapp.
+2026-03-29T18:53:19.3701118Z Starting watchers and probes.
+2026-03-29T18:53:19.3712348Z Starting metrics collection.
+2026-03-29T18:53:19.3715456Z Container is running.
+2026-03-29T18:53:19.3803935Z State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T18:53:19.6058608Z Container start method finished after 2820 ms.
+2026-03-29T18:53:19.6060902Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T18:53:19.6330054Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T18:54:23.7930925Z Site startup probe succeeded after 64.0259826 seconds.
+2026-03-29T18:54:23.9826658Z State: Starting, Action: WarmUpProbeSucceeded, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Site startup probe succeeded after 64.0259826 seconds., DetailsLevel: INFO
+2026-03-29T18:54:24.3505190Z Site is running with deployment version: 624b41f6-a33d-470d-98f7-515540debf6e
+2026-03-29T18:54:24.3525235Z Site started.
+2026-03-29T18:54:24.3583032Z State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 03/29/2026 18:51:50, LastErrorDetails: , Details: Site started at 03/29/2026 18:54:24 (UTC), DetailsLevel: INFO
+2026-03-29T18:54:24.4168755Z Site is running with patch version PYTHON 3.11.14

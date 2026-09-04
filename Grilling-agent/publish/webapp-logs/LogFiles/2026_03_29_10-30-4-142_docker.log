@@ -1,0 +1,285 @@
+2026-03-29T03:05:20.5559788Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:05:21.3980724Z State: Starting, Action: StartingMsiContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:05:24.8199259Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-29T03:05:24.8200951Z Container start method called.
+2026-03-29T03:05:24.8201670Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:05:24.8202800Z Establishing network.
+2026-03-29T03:05:24.8204593Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:05:47.0634398Z Image appsvc/python:3.11_20260203.2.tuxprod is pulled from registry 10.1.6.0:13209
+2026-03-29T03:05:47.0636209Z Container is starting.
+2026-03-29T03:05:47.0728897Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:05:47.0731400Z Establishing user namespace if not established already.
+2026-03-29T03:05:47.0732771Z Establishing network if not established already.
+2026-03-29T03:05:47.0734076Z Mounting volumes.
+2026-03-29T03:05:47.0759828Z Nested mountpoint 
+2026-03-29T03:05:47.0838895Z Nested mountpoint volatile/logs
+2026-03-29T03:05:47.0986587Z Nested mountpoint 
+2026-03-29T03:05:47.1181690Z Nested mountpoint 
+2026-03-29T03:05:47.1189202Z Nested mountpoint 
+2026-03-29T03:05:47.2606818Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:05:47.2607940Z Creating container.
+2026-03-29T03:05:47.2608786Z Creating pipes for streaming container io.
+2026-03-29T03:05:47.2609476Z Creating stdout named pipe at /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stdout_b354790d1e074aaaa989564f17d10a66.
+2026-03-29T03:05:47.2647486Z Successfully created stdout named pipe at: /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stdout_b354790d1e074aaaa989564f17d10a66.
+2026-03-29T03:05:47.2653770Z Opening named pipe /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stdout_b354790d1e074aaaa989564f17d10a66 for reading in non-blocking mode.
+2026-03-29T03:05:47.2655460Z Successfully opened named pipe: /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stdout_b354790d1e074aaaa989564f17d10a66.
+2026-03-29T03:05:47.2656562Z Successfully removed non-blocking flag from /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stdout_b354790d1e074aaaa989564f17d10a66.
+2026-03-29T03:05:47.2660440Z Creating stderr named pipe at /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stderr_090cfc0c0c384266922bdbcc40984862.
+2026-03-29T03:05:47.2662901Z Successfully created stderr named pipe at: /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stderr_090cfc0c0c384266922bdbcc40984862.
+2026-03-29T03:05:47.2663857Z Opening named pipe /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stderr_090cfc0c0c384266922bdbcc40984862 for reading in non-blocking mode.
+2026-03-29T03:05:47.2664925Z Successfully opened named pipe: /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stderr_090cfc0c0c384266922bdbcc40984862.
+2026-03-29T03:05:47.2666999Z Successfully removed non-blocking flag from /podr/container/pipe/a1f9d5dc9a22_grillingagent-webapp/stderr_090cfc0c0c384266922bdbcc40984862.
+2026-03-29T03:05:47.2670005Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:05:49.0141880Z Starting container: a1f9d5dc9a22_grillingagent-webapp.
+2026-03-29T03:05:49.0300209Z Starting watchers and probes.
+2026-03-29T03:05:49.0303779Z Starting metrics collection.
+2026-03-29T03:05:49.0305403Z Container is running.
+2026-03-29T03:05:49.0306378Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:05:49.1757574Z Container start method finished after 24355 ms.
+2026-03-29T03:05:49.1759669Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:05:49.1760068Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:06:02.8074615Z Container has finished running with exit code: 2.
+2026-03-29T03:06:02.8166395Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:06:02.8318993Z Stop and delete container. Retry count = 0
+2026-03-29T03:06:02.8328636Z Stopping container: a1f9d5dc9a22_grillingagent-webapp.
+2026-03-29T03:06:02.8751634Z Deleting container: a1f9d5dc9a22_grillingagent-webapp. Retry count = 0
+2026-03-29T03:06:05.2005742Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:06:05.2070202Z Container is terminated. Total time elapsed: 2389 ms.
+2026-03-29T03:06:05.2071229Z Site container: grillingagent-webapp terminated during site startup.
+2026-03-29T03:06:05.2252050Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.2550270Z Site startup probe failed after 16.0594669 seconds.
+2026-03-29T03:06:05.2999339Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.3158800Z Failed to start site. Revert by stopping site.
+2026-03-29T03:06:05.3433973Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.3523888Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.3535499Z Site: grillingagent-webapp stopped.
+2026-03-29T03:06:05.3718057Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.9621569Z Site container: grillingagent-webapp_managedIdentity terminated during site startup.
+2026-03-29T03:06:05.9627007Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:05.9806043Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:06.1660659Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:06 (UTC), DetailsLevel: ERR
+2026-03-29T03:06:06.2130083Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:06 (UTC), DetailsLevel: ERR
+2026-03-29T03:06:11.4197780Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:06 (UTC), DetailsLevel: ERR
+2026-03-29T03:06:11.8691380Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:06 (UTC), DetailsLevel: ERR
+2026-03-29T03:06:14.4927308Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:06 (UTC), DetailsLevel: ERR
+2026-03-29T03:06:14.4928126Z Container start method called.
+2026-03-29T03:06:14.4928480Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:06:14.4928985Z Establishing network.
+2026-03-29T03:06:14.4929638Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:06:14.5638217Z Container is starting.
+2026-03-29T03:06:14.5639508Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:06:14.5640699Z Establishing user namespace if not established already.
+2026-03-29T03:06:14.5642114Z Establishing network if not established already.
+2026-03-29T03:06:14.5644525Z Mounting volumes.
+2026-03-29T03:06:14.5646343Z Nested mountpoint 
+2026-03-29T03:06:14.5685278Z Nested mountpoint volatile/logs
+2026-03-29T03:06:14.5743673Z Nested mountpoint 
+2026-03-29T03:06:14.5776817Z Nested mountpoint 
+2026-03-29T03:06:14.5784117Z Nested mountpoint 
+2026-03-29T03:06:14.6556443Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:06:14.6557522Z Creating container.
+2026-03-29T03:06:14.6558390Z Creating pipes for streaming container io.
+2026-03-29T03:06:14.6559358Z Creating stdout named pipe at /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stdout_c48aa4c632eb4bca83ef41f2dc2eee3b.
+2026-03-29T03:06:14.6561198Z Successfully created stdout named pipe at: /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stdout_c48aa4c632eb4bca83ef41f2dc2eee3b.
+2026-03-29T03:06:14.6562098Z Opening named pipe /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stdout_c48aa4c632eb4bca83ef41f2dc2eee3b for reading in non-blocking mode.
+2026-03-29T03:06:14.6563131Z Successfully opened named pipe: /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stdout_c48aa4c632eb4bca83ef41f2dc2eee3b.
+2026-03-29T03:06:14.6563997Z Successfully removed non-blocking flag from /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stdout_c48aa4c632eb4bca83ef41f2dc2eee3b.
+2026-03-29T03:06:14.6568960Z Creating stderr named pipe at /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stderr_e1780b4829994b28a1a304ed5b53004c.
+2026-03-29T03:06:14.6570263Z Successfully created stderr named pipe at: /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stderr_e1780b4829994b28a1a304ed5b53004c.
+2026-03-29T03:06:14.6571013Z Opening named pipe /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stderr_e1780b4829994b28a1a304ed5b53004c for reading in non-blocking mode.
+2026-03-29T03:06:14.6571948Z Successfully opened named pipe: /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stderr_e1780b4829994b28a1a304ed5b53004c.
+2026-03-29T03:06:14.6683057Z Successfully removed non-blocking flag from /podr/container/pipe/a450c4e19d65_grillingagent-webapp/stderr_e1780b4829994b28a1a304ed5b53004c.
+2026-03-29T03:06:14.6705974Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:06:14.9469450Z Starting container: a450c4e19d65_grillingagent-webapp.
+2026-03-29T03:06:14.9702740Z Starting watchers and probes.
+2026-03-29T03:06:14.9706201Z Starting metrics collection.
+2026-03-29T03:06:14.9708118Z Container is running.
+2026-03-29T03:06:14.9709368Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:06:14.9956528Z Container start method finished after 502 ms.
+2026-03-29T03:06:14.9958377Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:06:14.9958611Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:06:22.4801093Z Container has finished running with exit code: 2.
+2026-03-29T03:06:22.4804158Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:06:22.4808012Z Stop and delete container. Retry count = 0
+2026-03-29T03:06:22.4809181Z Stopping container: a450c4e19d65_grillingagent-webapp.
+2026-03-29T03:06:22.5486348Z Deleting container: a450c4e19d65_grillingagent-webapp. Retry count = 0
+2026-03-29T03:06:24.6615716Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:06:24.6618621Z Container is terminated. Total time elapsed: 2181 ms.
+2026-03-29T03:06:24.6620082Z Site container: grillingagent-webapp terminated during site startup.
+2026-03-29T03:06:24.6621392Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:24.6638459Z Site startup probe failed after 9.6663178 seconds.
+2026-03-29T03:06:24.7010462Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:24.7021744Z Failed to start site. Revert by stopping site.
+2026-03-29T03:06:24.7023045Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:24.7025605Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:24.7025805Z Site: grillingagent-webapp stopped.
+2026-03-29T03:06:24.7039183Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:25.1303720Z Site container: grillingagent-webapp_managedIdentity terminated during site startup.
+2026-03-29T03:06:25.1304951Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:25.1394083Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:06:25.2419379Z Site: grillingagent-webapp will be blocked for 1 minutes till 03/29/2026 03:07:25
+2026-03-29T03:06:25.2426934Z State: Blocked, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site: grillingagent-webapp will be blocked for 1 minutes till 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:25.2718352Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:25 (UTC), DetailsLevel: WARN
+2026-03-29T03:06:25.3103838Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:06:25 (UTC), DetailsLevel: WARN
+2026-03-29T03:06:30.3708932Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:30.3709238Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:06:35.4592619Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:35.4592908Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:06:40.5078931Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:40.5079215Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:06:45.5546685Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:45.5546904Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:06:50.6179594Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:50.6180035Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:06:55.6665209Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:06:55.6665483Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:00.7080276Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:00.7080550Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:05.8022479Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:05.8022985Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:11.3011225Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:11.3011482Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:16.6672538Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:16.6672806Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:21.7379062Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:21.7379520Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:25.2405497Z Site: grillingagent-webapp is unblocked.
+2026-03-29T03:07:26.8133859Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:27.2766933Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:30.2648836Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:07:25, DetailsLevel: WARN
+2026-03-29T03:07:30.2651499Z Container start method called.
+2026-03-29T03:07:30.2658116Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:07:30.2700217Z Establishing network.
+2026-03-29T03:07:30.2701768Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:07:30.3585279Z Container is starting.
+2026-03-29T03:07:30.3589173Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:07:30.3592245Z Establishing user namespace if not established already.
+2026-03-29T03:07:30.3598850Z Establishing network if not established already.
+2026-03-29T03:07:30.3600272Z Mounting volumes.
+2026-03-29T03:07:30.3602187Z Nested mountpoint 
+2026-03-29T03:07:30.3672770Z Nested mountpoint volatile/logs
+2026-03-29T03:07:30.3705225Z Nested mountpoint 
+2026-03-29T03:07:30.3711637Z Nested mountpoint 
+2026-03-29T03:07:30.3717827Z Nested mountpoint 
+2026-03-29T03:07:30.5168354Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:07:30.5169565Z Creating container.
+2026-03-29T03:07:30.5170479Z Creating pipes for streaming container io.
+2026-03-29T03:07:30.5171431Z Creating stdout named pipe at /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stdout_12aeac1771934249a2b309a05fd395c3.
+2026-03-29T03:07:30.5173255Z Successfully created stdout named pipe at: /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stdout_12aeac1771934249a2b309a05fd395c3.
+2026-03-29T03:07:30.5174158Z Opening named pipe /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stdout_12aeac1771934249a2b309a05fd395c3 for reading in non-blocking mode.
+2026-03-29T03:07:30.5175082Z Successfully opened named pipe: /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stdout_12aeac1771934249a2b309a05fd395c3.
+2026-03-29T03:07:30.5189360Z Successfully removed non-blocking flag from /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stdout_12aeac1771934249a2b309a05fd395c3.
+2026-03-29T03:07:30.5191315Z Creating stderr named pipe at /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stderr_202b344da7054093ab8d764552710ecc.
+2026-03-29T03:07:30.5192907Z Successfully created stderr named pipe at: /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stderr_202b344da7054093ab8d764552710ecc.
+2026-03-29T03:07:30.5193833Z Opening named pipe /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stderr_202b344da7054093ab8d764552710ecc for reading in non-blocking mode.
+2026-03-29T03:07:30.5194964Z Successfully opened named pipe: /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stderr_202b344da7054093ab8d764552710ecc.
+2026-03-29T03:07:30.5195825Z Successfully removed non-blocking flag from /podr/container/pipe/14f48a3c1be0_grillingagent-webapp/stderr_202b344da7054093ab8d764552710ecc.
+2026-03-29T03:07:30.5197162Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:07:30.9161923Z Starting container: 14f48a3c1be0_grillingagent-webapp.
+2026-03-29T03:07:30.9822537Z Starting watchers and probes.
+2026-03-29T03:07:30.9825805Z Starting metrics collection.
+2026-03-29T03:07:30.9845689Z Container is running.
+2026-03-29T03:07:30.9846888Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:07:31.0080156Z Container start method finished after 742 ms.
+2026-03-29T03:07:31.0082425Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:07:31.0082691Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:07:40.7421678Z Container has finished running with exit code: 2.
+2026-03-29T03:07:40.7425254Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:07:40.7432309Z Stop and delete container. Retry count = 0
+2026-03-29T03:07:40.7433006Z Stopping container: 14f48a3c1be0_grillingagent-webapp.
+2026-03-29T03:07:40.7767744Z Deleting container: 14f48a3c1be0_grillingagent-webapp. Retry count = 0
+2026-03-29T03:07:42.3418013Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:07:42.3430714Z Container is terminated. Total time elapsed: 1600 ms.
+2026-03-29T03:07:42.3432085Z Site container: grillingagent-webapp terminated during site startup.
+2026-03-29T03:07:42.3439546Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:06:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.3472666Z Site startup probe failed after 11.3385281 seconds.
+2026-03-29T03:07:42.3858312Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.3910045Z Failed to start site. Revert by stopping site.
+2026-03-29T03:07:42.3918814Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.3921611Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.3921840Z Site: grillingagent-webapp stopped.
+2026-03-29T03:07:42.3942028Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.8034135Z Site container: grillingagent-webapp_managedIdentity terminated during site startup.
+2026-03-29T03:07:42.8035164Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.8129344Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:07:42.9488399Z Site: grillingagent-webapp will be blocked for 1 minutes till 03/29/2026 03:08:42
+2026-03-29T03:07:42.9491212Z State: Blocked, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site: grillingagent-webapp will be blocked for 1 minutes till 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:07:42.9495417Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:07:42 (UTC), DetailsLevel: WARN
+2026-03-29T03:07:42.9752252Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/29/2026 03:07:42 (UTC), DetailsLevel: WARN
+2026-03-29T03:07:48.0833733Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:07:48.0833976Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:53.1388210Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:07:53.1388734Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:07:58.2209826Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:07:58.2210192Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:03.3089089Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:03.3097358Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:08.4076218Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:08.4076463Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:13.4644249Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:13.4644503Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:18.5190685Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:18.5190960Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:23.5706658Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:23.5707195Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:28.6316990Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:28.6317215Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:33.6822788Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:33.6823055Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:38.7525142Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:38.7525431Z Start site prohibitted because the site is being blocked.
+2026-03-29T03:08:42.9526254Z Site: grillingagent-webapp is unblocked.
+2026-03-29T03:08:43.8988781Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:44.2839127Z State: Starting, Action: StartingMsiContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:46.9398945Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 03/29/2026 03:08:42, DetailsLevel: WARN
+2026-03-29T03:08:46.9400161Z Container start method called.
+2026-03-29T03:08:46.9400635Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:08:46.9401503Z Establishing network.
+2026-03-29T03:08:46.9402569Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-03-29T03:08:47.0192994Z Container is starting.
+2026-03-29T03:08:47.0193808Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for grillingagent-webapp., DetailsLevel: INFO
+2026-03-29T03:08:47.0194796Z Establishing user namespace if not established already.
+2026-03-29T03:08:47.0195624Z Establishing network if not established already.
+2026-03-29T03:08:47.0196549Z Mounting volumes.
+2026-03-29T03:08:47.0198111Z Nested mountpoint 
+2026-03-29T03:08:47.0220382Z Nested mountpoint volatile/logs
+2026-03-29T03:08:47.0289449Z Nested mountpoint 
+2026-03-29T03:08:47.0296272Z Nested mountpoint 
+2026-03-29T03:08:47.0302932Z Nested mountpoint 
+2026-03-29T03:08:47.1500508Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for grillingagent-webapp. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-29T03:08:47.1501680Z Creating container.
+2026-03-29T03:08:47.1502623Z Creating pipes for streaming container io.
+2026-03-29T03:08:47.1503493Z Creating stdout named pipe at /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stdout_f028d9452fa74c35952d59033750c9c1.
+2026-03-29T03:08:47.1540471Z Successfully created stdout named pipe at: /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stdout_f028d9452fa74c35952d59033750c9c1.
+2026-03-29T03:08:47.1547448Z Opening named pipe /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stdout_f028d9452fa74c35952d59033750c9c1 for reading in non-blocking mode.
+2026-03-29T03:08:47.1550709Z Successfully opened named pipe: /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stdout_f028d9452fa74c35952d59033750c9c1.
+2026-03-29T03:08:47.1552140Z Successfully removed non-blocking flag from /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stdout_f028d9452fa74c35952d59033750c9c1.
+2026-03-29T03:08:47.1557753Z Creating stderr named pipe at /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stderr_ad1d8d6e7bf0457c8051fe5882f89665.
+2026-03-29T03:08:47.1559227Z Successfully created stderr named pipe at: /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stderr_ad1d8d6e7bf0457c8051fe5882f89665.
+2026-03-29T03:08:47.1560209Z Opening named pipe /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stderr_ad1d8d6e7bf0457c8051fe5882f89665 for reading in non-blocking mode.
+2026-03-29T03:08:47.1561182Z Successfully opened named pipe: /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stderr_ad1d8d6e7bf0457c8051fe5882f89665.
+2026-03-29T03:08:47.1562036Z Successfully removed non-blocking flag from /podr/container/pipe/0ff1eaf3c508_grillingagent-webapp/stderr_ad1d8d6e7bf0457c8051fe5882f89665.
+2026-03-29T03:08:47.1563364Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-03-29T03:08:47.3677539Z Starting container: 0ff1eaf3c508_grillingagent-webapp.
+2026-03-29T03:08:47.3851680Z Starting watchers and probes.
+2026-03-29T03:08:47.3854275Z Starting metrics collection.
+2026-03-29T03:08:47.3867423Z Container is running.
+2026-03-29T03:08:47.3868335Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:08:47.4157168Z Container start method finished after 475 ms.
+2026-03-29T03:08:47.4159153Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container grillingagent-webapp successfully created and is running., DetailsLevel: INFO
+2026-03-29T03:08:47.4163486Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-29T03:08:55.7720883Z Container has finished running with exit code: 2.
+2026-03-29T03:08:55.7722412Z Container is terminating. Grace period: 5 seconds.
+2026-03-29T03:08:55.7727031Z Stop and delete container. Retry count = 0
+2026-03-29T03:08:55.7728192Z Stopping container: 0ff1eaf3c508_grillingagent-webapp.
+2026-03-29T03:08:55.8054325Z Deleting container: 0ff1eaf3c508_grillingagent-webapp. Retry count = 0
+2026-03-29T03:08:58.0127668Z Container spec TerminationMessagePolicy  path 
+2026-03-29T03:08:58.0141103Z Container is terminated. Total time elapsed: 2241 ms.
+2026-03-29T03:08:58.0142901Z Site container: grillingagent-webapp terminated during site startup.
+2026-03-29T03:08:58.0144257Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:07:42, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:08:58.0164908Z Site startup probe failed after 10.5995711 seconds.
+2026-03-29T03:08:58.0549667Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:08:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:08:58.0562690Z Failed to start site. Revert by stopping site.
+2026-03-29T03:08:58.0586831Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:08:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:08:58.0589781Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/29/2026 03:08:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: grillingagent-webapp terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-29T03:08:58.0589995Z Site: grillingagent-webapp stopped.

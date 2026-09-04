@@ -1,0 +1,43 @@
+2026-03-29T18:53:19.9993952Z    _____                               
+2026-03-29T18:53:19.9998466Z   /  _  \ __________ _________   ____  
+2026-03-29T18:53:19.9998558Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-03-29T18:53:19.9998669Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-03-29T18:53:19.9998703Z \____|__  /_____ \____/ |__|    \___  >
+2026-03-29T18:53:19.9998741Z         \/      \/                  \/ 
+2026-03-29T18:53:19.9998771Z A P P   S E R V I C E   O N   L I N U X
+2026-03-29T18:53:19.9998798Z 
+2026-03-29T18:53:19.9998835Z Documentation    : http://aka.ms/webapp-linux
+2026-03-29T18:53:19.9998901Z Python quickstart: https://aka.ms/python-qs
+2026-03-29T18:53:19.9998933Z Python version   : 3.11.14
+2026-03-29T18:53:19.9998964Z Instance Name    : lw1sdlwk000A70
+2026-03-29T18:53:19.9999023Z Instance Id      : 7027b969031c94613514ec697c7e3a6d47b7688ba8957f26fe21e2914f006845
+2026-03-29T18:53:19.9999053Z 
+2026-03-29T18:53:19.9999082Z Note: Any data outside '/home' is not persisted
+2026-03-29T18:53:22.6294016Z Starting OpenBSD Secure Shell server: sshd.
+2026-03-29T18:53:22.7088325Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-03-29T18:53:22.8645101Z Updating certificates in /etc/ssl/certs...
+2026-03-29T18:53:44.7720772Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-03-29T18:53:44.8117012Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-03-29T18:53:44.9301610Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-03-29T18:53:44.9424949Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-03-29T18:53:45.1269013Z 4 added, 0 removed; done.
+2026-03-29T18:53:45.1288525Z Running hooks in /etc/ca-certificates/update.d...
+2026-03-29T18:53:45.1676187Z done.
+2026-03-29T18:53:45.2455287Z CA certificates copied and updated successfully.
+2026-03-29T18:53:45.7377354Z Site's appCommandLine: python main.py
+2026-03-29T18:53:47.3346753Z Starting periodic command scheduler: cron.
+2026-03-29T18:53:47.3800560Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python main.py'
+2026-03-29T18:53:47.6747211Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2026-03-29T18:53:47.6970140Z Build Operation ID: 4729ef57b37db35a
+2026-03-29T18:53:47.7140166Z Output is compressed. Extracting it...
+2026-03-29T18:53:47.7140856Z Found zstd-compressed tarball.
+2026-03-29T18:53:47.7141459Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-03-29T18:53:47.8025963Z Extracting '/home/site/wwwroot/output.tar.zst' to directory '/tmp/8de8dc36df58d89'...
+2026-03-29T18:53:47.8026643Z Using zstd for decompression of file: /home/site/wwwroot/output.tar.zst
+2026-03-29T18:54:03.1543603Z zstd tar Successfully extracted '/home/site/wwwroot/output.tar.zst' to '/tmp/8de8dc36df58d89'
+2026-03-29T18:54:03.1544452Z App path is set to '/tmp/8de8dc36df58d89'
+2026-03-29T18:54:03.3014157Z Writing output script to '/opt/startup/startup.sh'
+2026-03-29T18:54:04.6842404Z Using packages from virtual environment antenv located at /tmp/8de8dc36df58d89/antenv.
+2026-03-29T18:54:04.7172647Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8de8dc36df58d89/antenv/lib/python3.11/site-packages'
+2026-03-29T18:54:23.5388424Z is_agent365_exporter_enabled() not enabled or token_resolver not set.Falling back to console exporter.
+2026-03-29T18:54:23.5457445Z OpenTelemetry console span exporter enabled.
